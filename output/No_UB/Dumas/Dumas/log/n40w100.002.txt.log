@@ -1,0 +1,57 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 925 rows and 0 columns.
+MIP Presolve modified 162 coefficients.
+Reduced MIP has 245 rows, 708 columns, and 2604 nonzeros.
+Reduced MIP has 708 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.85 ticks)
+Probing time = 0.00 sec. (1.53 ticks)
+Clique table members: 245.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.64 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0      331.5000    18                    307.0000       67         
+      0     0      347.8000    48                    User: 19       81         
+      0     0      350.0000    44                    Cuts: 16       96         
+      0     0      352.4118    63                    Cuts: 12       99         
+      0     0      353.0000    45                     Cuts: 7      111         
+      0     0      354.0000    16                    Cuts: 17      128         
+      0     0      354.0000    18                     Cuts: 4      134         
+      0     0      354.0000    12                     User: 9      141         
+      0     0      354.0000    12                     User: 1      146         
+      0     0      354.0357    58                     User: 5      154         
+      0     0      354.0455    57                     User: 1      155         
+      0     2      354.0455    57                    354.1250      155                                 0             0
+Elapsed time = 0.10 sec. (166.77 ticks, tree = 0.01 MB, solutions = 0)
+*     8     8      integral     0      363.0000      354.5000      262    2.34%
+     63    31      357.1364    57      363.0000      355.1667     1092    2.16%          x28_23 N     63     62     10
+    220   135      360.5000    10      363.0000      355.8780     2521    1.96%           x21_7 D    220    219     31
+    409   250        cutoff            363.0000      356.5000     4487    1.79%           x9_16 D    409    408     17
+*   411    25      integral     0      358.0000      356.5000     4527    0.42%
+
+Cover cuts applied:  1
+Mixed integer rounding cuts applied:  1
+Zero-half cuts applied:  8
+Gomory fractional cuts applied:  1
+User cuts applied:  592
+
+Root node processing (before b&c):
+  Real time             =    0.10 sec. (166.77 ticks)
+Sequential b&c:
+  Real time             =    0.60 sec. (755.79 ticks)
+                          ------------
+Total (root+branch&cut) =    0.71 sec. (922.57 ticks)
+

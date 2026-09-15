@@ -1,0 +1,97 @@
+Inicio: 14/08/2026 23:24:57
+Familia: SolomonPesant
+Algoritmo: B
+Dry-run: 0
+Entrada: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../input/MLI/instances/SolomonPesant
+Soluciones: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../input/MLI/solutions/InitialHeuristic/SolomonPesant/sol
+Salida: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260814232457_SolomonPesant/
+ 
+==========================================
+INSTANCIA: SolomonPesant/rc201.0 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc201.0 | 0s
+ 
+INSTANCIA: SolomonPesant/rc201.1 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc201.1 | 0s
+ 
+INSTANCIA: SolomonPesant/rc201.2 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc201.2 | 0s
+ 
+INSTANCIA: SolomonPesant/rc201.3 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc201.3 | 0s
+ 
+INSTANCIA: SolomonPesant/rc202.0 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc202.0 | 0s
+ 
+INSTANCIA: SolomonPesant/rc202.1 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc202.1 | 0s
+ 
+INSTANCIA: SolomonPesant/rc202.2 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc202.2 | 0s
+ 
+INSTANCIA: SolomonPesant/rc202.3 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc202.3 | 0s
+ 
+INSTANCIA: SolomonPesant/rc203.0 | inicio 14/08/2026 23:24:57
+OK  : SolomonPesant/rc203.0 | 4274s
+ 
+INSTANCIA: SolomonPesant/rc203.1 | inicio 15/08/2026 00:36:11
+OK  : SolomonPesant/rc203.1 | 449s
+ 
+INSTANCIA: SolomonPesant/rc203.2 | inicio 15/08/2026 00:43:40
+OK  : SolomonPesant/rc203.2 | 0s
+ 
+INSTANCIA: SolomonPesant/rc204.0 | inicio 15/08/2026 00:43:40
+OK  : SolomonPesant/rc204.0 | 0s
+ 
+INSTANCIA: SolomonPesant/rc204.1 | inicio 15/08/2026 00:43:40
+OK  : SolomonPesant/rc204.1 | 1s
+ 
+INSTANCIA: SolomonPesant/rc204.2 | inicio 15/08/2026 00:43:41
+OK  : SolomonPesant/rc204.2 | 5807s
+ 
+INSTANCIA: SolomonPesant/rc205.0 | inicio 15/08/2026 02:20:28
+OK  : SolomonPesant/rc205.0 | 0s
+ 
+INSTANCIA: SolomonPesant/rc205.1 | inicio 15/08/2026 02:20:28
+OK  : SolomonPesant/rc205.1 | 0s
+ 
+INSTANCIA: SolomonPesant/rc205.2 | inicio 15/08/2026 02:20:28
+OK  : SolomonPesant/rc205.2 | 4s
+ 
+INSTANCIA: SolomonPesant/rc205.3 | inicio 15/08/2026 02:20:32
+OK  : SolomonPesant/rc205.3 | 0s
+ 
+INSTANCIA: SolomonPesant/rc206.0 | inicio 15/08/2026 02:20:32
+OK  : SolomonPesant/rc206.0 | 11s
+ 
+INSTANCIA: SolomonPesant/rc206.1 | inicio 15/08/2026 02:20:43
+OK  : SolomonPesant/rc206.1 | 0s
+ 
+INSTANCIA: SolomonPesant/rc206.2 | inicio 15/08/2026 02:20:43
+OK  : SolomonPesant/rc206.2 | 1s
+ 
+INSTANCIA: SolomonPesant/rc207.0 | inicio 15/08/2026 02:20:44
+OK  : SolomonPesant/rc207.0 | 0s
+ 
+INSTANCIA: SolomonPesant/rc207.1 | inicio 15/08/2026 02:20:44
+OK  : SolomonPesant/rc207.1 | 3s
+ 
+INSTANCIA: SolomonPesant/rc207.2 | inicio 15/08/2026 02:20:47
+OK  : SolomonPesant/rc207.2 | 0s
+ 
+INSTANCIA: SolomonPesant/rc208.0 | inicio 15/08/2026 02:20:47
+FAIL: SolomonPesant/rc208.0 | exit=134 | 10801s
+ 
+INSTANCIA: SolomonPesant/rc208.1 | inicio 15/08/2026 05:20:48
+OK  : SolomonPesant/rc208.1 | 16s
+ 
+INSTANCIA: SolomonPesant/rc208.2 | inicio 15/08/2026 05:21:04
+OK  : SolomonPesant/rc208.2 | 0s
+ 
+==========================================
+Fin: 15/08/2026 05:21:04
+Tiempo total: 21367s
+Instancias lanzadas: 27
+OK: 26 | FAIL: 1 | SKIP: 0
+Fichero de estadisticas del solver: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260814232457_SolomonPesant/estadisticas_globales.txt
+Resumen de lanzamiento: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260814232457_SolomonPesant/resumen_lanzamiento.txt

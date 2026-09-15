@@ -1,0 +1,91 @@
+Inicio: 14/08/2026 12:09:06
+Familia: OhlmannThomas
+Algoritmo: B
+Dry-run: 0
+Entrada: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../input/MLI/instances/OhlmannThomas
+Soluciones: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../input/MLI/solutions/InitialHeuristic/OhlmannThomas/sol
+Salida: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260814120906_OhlmannThomas/
+ 
+==========================================
+INSTANCIA: OhlmannThomas/n150w120.001.txt | inicio 14/08/2026 12:09:06
+OK  : OhlmannThomas/n150w120.001.txt | 14s
+ 
+INSTANCIA: OhlmannThomas/n150w120.002.txt | inicio 14/08/2026 12:09:20
+OK  : OhlmannThomas/n150w120.002.txt | 846s
+ 
+INSTANCIA: OhlmannThomas/n150w120.003.txt | inicio 14/08/2026 12:23:26
+OK  : OhlmannThomas/n150w120.003.txt | 16s
+ 
+INSTANCIA: OhlmannThomas/n150w120.004.txt | inicio 14/08/2026 12:23:42
+OK  : OhlmannThomas/n150w120.004.txt | 51s
+ 
+INSTANCIA: OhlmannThomas/n150w120.005.txt | inicio 14/08/2026 12:24:33
+OK  : OhlmannThomas/n150w120.005.txt | 49s
+ 
+INSTANCIA: OhlmannThomas/n150w140.001.txt | inicio 14/08/2026 12:25:22
+OK  : OhlmannThomas/n150w140.001.txt | 517s
+ 
+INSTANCIA: OhlmannThomas/n150w140.002.txt | inicio 14/08/2026 12:33:59
+OK  : OhlmannThomas/n150w140.002.txt | 174s
+ 
+INSTANCIA: OhlmannThomas/n150w140.003.txt | inicio 14/08/2026 12:36:53
+OK  : OhlmannThomas/n150w140.003.txt | 1594s
+ 
+INSTANCIA: OhlmannThomas/n150w140.004.txt | inicio 14/08/2026 13:03:27
+OK  : OhlmannThomas/n150w140.004.txt | 1s
+ 
+INSTANCIA: OhlmannThomas/n150w140.005.txt | inicio 14/08/2026 13:03:28
+OK  : OhlmannThomas/n150w140.005.txt | 32s
+ 
+INSTANCIA: OhlmannThomas/n150w160.001.txt | inicio 14/08/2026 13:04:00
+OK  : OhlmannThomas/n150w160.001.txt | 7s
+ 
+INSTANCIA: OhlmannThomas/n150w160.002.txt | inicio 14/08/2026 13:04:07
+OK  : OhlmannThomas/n150w160.002.txt | 164s
+ 
+INSTANCIA: OhlmannThomas/n150w160.003.txt | inicio 14/08/2026 13:06:51
+FAIL: OhlmannThomas/n150w160.003.txt | exit=134 | 9335s
+ 
+INSTANCIA: OhlmannThomas/n150w160.004.txt | inicio 14/08/2026 15:42:26
+OK  : OhlmannThomas/n150w160.004.txt | 209s
+ 
+INSTANCIA: OhlmannThomas/n150w160.005.txt | inicio 14/08/2026 15:45:55
+OK  : OhlmannThomas/n150w160.005.txt | 209s
+ 
+INSTANCIA: OhlmannThomas/n200w120.001.txt | inicio 14/08/2026 15:49:24
+OK  : OhlmannThomas/n200w120.001.txt | 129s
+ 
+INSTANCIA: OhlmannThomas/n200w120.002.txt | inicio 14/08/2026 15:51:33
+OK  : OhlmannThomas/n200w120.002.txt | 25s
+ 
+INSTANCIA: OhlmannThomas/n200w120.003.txt | inicio 14/08/2026 15:51:58
+OK  : OhlmannThomas/n200w120.003.txt | 312s
+ 
+INSTANCIA: OhlmannThomas/n200w120.004.txt | inicio 14/08/2026 15:57:10
+OK  : OhlmannThomas/n200w120.004.txt | 4s
+ 
+INSTANCIA: OhlmannThomas/n200w120.005.txt | inicio 14/08/2026 15:57:14
+OK  : OhlmannThomas/n200w120.005.txt | 109s
+ 
+INSTANCIA: OhlmannThomas/n200w140.001.txt | inicio 14/08/2026 15:59:03
+FAIL: OhlmannThomas/n200w140.001.txt | exit=134 | 3552s
+ 
+INSTANCIA: OhlmannThomas/n200w140.002.txt | inicio 14/08/2026 16:58:15
+FAIL: OhlmannThomas/n200w140.002.txt | exit=134 | 10808s
+ 
+INSTANCIA: OhlmannThomas/n200w140.003.txt | inicio 14/08/2026 19:58:23
+OK  : OhlmannThomas/n200w140.003.txt | 106s
+ 
+INSTANCIA: OhlmannThomas/n200w140.004.txt | inicio 14/08/2026 20:00:09
+FAIL: OhlmannThomas/n200w140.004.txt | exit=134 | 10787s
+ 
+INSTANCIA: OhlmannThomas/n200w140.005.txt | inicio 14/08/2026 22:59:56
+OK  : OhlmannThomas/n200w140.005.txt | 1501s
+ 
+==========================================
+Fin: 14/08/2026 23:24:57
+Tiempo total: 40551s
+Instancias lanzadas: 25
+OK: 21 | FAIL: 4 | SKIP: 0
+Fichero de estadisticas del solver: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260814120906_OhlmannThomas/estadisticas_globales.txt
+Resumen de lanzamiento: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260814120906_OhlmannThomas/resumen_lanzamiento.txt

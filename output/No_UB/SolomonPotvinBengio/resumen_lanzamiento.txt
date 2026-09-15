@@ -1,0 +1,106 @@
+Inicio: 15/08/2026 05:21:04
+Familia: SolomonPotvinBengio
+Algoritmo: B
+Dry-run: 0
+Entrada: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../input/MLI/instances/SolomonPotvinBengio
+Soluciones: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../input/MLI/solutions/InitialHeuristic/SolomonPotvinBengio/sol
+Salida: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260815052104_SolomonPotvinBengio/
+ 
+==========================================
+INSTANCIA: SolomonPotvinBengio/rc_201.1.txt | inicio 15/08/2026 05:21:04
+OK  : SolomonPotvinBengio/rc_201.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_201.2.txt | inicio 15/08/2026 05:21:04
+OK  : SolomonPotvinBengio/rc_201.2.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_201.3.txt | inicio 15/08/2026 05:21:05
+OK  : SolomonPotvinBengio/rc_201.3.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_201.4.txt | inicio 15/08/2026 05:21:05
+OK  : SolomonPotvinBengio/rc_201.4.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_202.1.txt | inicio 15/08/2026 05:21:05
+OK  : SolomonPotvinBengio/rc_202.1.txt | 333s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_202.2.txt | inicio 15/08/2026 05:26:38
+OK  : SolomonPotvinBengio/rc_202.2.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_202.3.txt | inicio 15/08/2026 05:26:38
+OK  : SolomonPotvinBengio/rc_202.3.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_202.4.txt | inicio 15/08/2026 05:26:39
+OK  : SolomonPotvinBengio/rc_202.4.txt | 7s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_203.1.txt | inicio 15/08/2026 05:26:46
+OK  : SolomonPotvinBengio/rc_203.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_203.2.txt | inicio 15/08/2026 05:26:46
+OK  : SolomonPotvinBengio/rc_203.2.txt | 6s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_203.3.txt | inicio 15/08/2026 05:26:52
+OK  : SolomonPotvinBengio/rc_203.3.txt | 10800s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_203.4.txt | inicio 15/08/2026 08:26:52
+OK  : SolomonPotvinBengio/rc_203.4.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_204.1.txt | inicio 15/08/2026 08:26:52
+FAIL: SolomonPotvinBengio/rc_204.1.txt | exit=134 | 10801s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_204.2.txt | inicio 15/08/2026 11:26:53
+OK  : SolomonPotvinBengio/rc_204.2.txt | 10802s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_204.3.txt | inicio 15/08/2026 14:26:55
+OK  : SolomonPotvinBengio/rc_204.3.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_205.1.txt | inicio 15/08/2026 14:26:56
+OK  : SolomonPotvinBengio/rc_205.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_205.2.txt | inicio 15/08/2026 14:26:56
+OK  : SolomonPotvinBengio/rc_205.2.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_205.3.txt | inicio 15/08/2026 14:26:57
+OK  : SolomonPotvinBengio/rc_205.3.txt | 3s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_205.4.txt | inicio 15/08/2026 14:27:00
+OK  : SolomonPotvinBengio/rc_205.4.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_206.1.txt | inicio 15/08/2026 14:27:01
+OK  : SolomonPotvinBengio/rc_206.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_206.2.txt | inicio 15/08/2026 14:27:01
+OK  : SolomonPotvinBengio/rc_206.2.txt | 4393s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_206.3.txt | inicio 15/08/2026 15:40:14
+OK  : SolomonPotvinBengio/rc_206.3.txt | 4s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_206.4.txt | inicio 15/08/2026 15:40:18
+FAIL: SolomonPotvinBengio/rc_206.4.txt | exit=134 | 10801s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_207.1.txt | inicio 15/08/2026 18:40:19
+OK  : SolomonPotvinBengio/rc_207.1.txt | 2s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_207.2.txt | inicio 15/08/2026 18:40:21
+FAIL: SolomonPotvinBengio/rc_207.2.txt | exit=134 | 10802s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_207.3.txt | inicio 15/08/2026 21:40:23
+OK  : SolomonPotvinBengio/rc_207.3.txt | 135s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_207.4.txt | inicio 15/08/2026 21:42:38
+OK  : SolomonPotvinBengio/rc_207.4.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_208.1.txt | inicio 15/08/2026 21:42:38
+FAIL: SolomonPotvinBengio/rc_208.1.txt | exit=134 | 10802s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_208.2.txt | inicio 16/08/2026 00:42:40
+OK  : SolomonPotvinBengio/rc_208.2.txt | 30s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_208.3.txt | inicio 16/08/2026 00:43:10
+FAIL: SolomonPotvinBengio/rc_208.3.txt | exit=134 | 10801s
+ 
+==========================================
+Fin: 16/08/2026 03:43:11
+Tiempo total: 80527s
+Instancias lanzadas: 30
+OK: 25 | FAIL: 5 | SKIP: 0
+Fichero de estadisticas del solver: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260815052104_SolomonPotvinBengio/estadisticas_globales.txt
+Resumen de lanzamiento: /home/riera/Documentos/GitHub/ATSP_TW_code/launcher/MLI/../../tmp/260815052104_SolomonPotvinBengio/resumen_lanzamiento.txt

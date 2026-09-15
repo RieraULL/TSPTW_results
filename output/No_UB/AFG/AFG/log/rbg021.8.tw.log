@@ -1,0 +1,51 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve modified 86 coefficients.
+Reduced MIP has 126 rows, 380 columns, and 1018 nonzeros.
+Reduced MIP has 380 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.47 ticks)
+Probing time = 0.00 sec. (0.71 ticks)
+Clique table members: 126.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.47 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0      128.0000    14                    125.0000       48         
+      0     0      128.0714    21                     User: 1       57         
+      0     0      129.0000    15                     Cuts: 9       65         
+      0     0      129.0000    14                     Cuts: 6       68         
+      0     0      129.0000    10                     User: 1       69         
+      0     0      129.0000    13                     Cuts: 3       72         
+      0     0      129.0000    12                     User: 1       73         
+      0     0      129.0000    12                     User: 1       75         
+*     0+    0                          141.0000      129.0000             8.51%
+      0     2      129.0000    15      141.0000      129.0000       75    8.51%                        0             0
+Elapsed time = 0.09 sec. (36.31 ticks, tree = 0.01 MB, solutions = 1)
+*     8     8      integral     0      138.0000      129.0000      134    6.52%
+*    16     8      integral     0      135.0000      129.0000      154    4.44%
+*    36    14      integral     0      134.0000      129.0833      240    3.67%
+*    40    14      integral     0      133.0000      129.0833      250    2.94%
+*   148    31      integral     0      132.0000      130.0000      614    1.52%
+
+Gomory fractional cuts applied:  1
+User cuts applied:  174
+
+Root node processing (before b&c):
+  Real time             =    0.09 sec. (36.39 ticks)
+Sequential b&c:
+  Real time             =    0.19 sec. (109.83 ticks)
+                          ------------
+Total (root+branch&cut) =    0.28 sec. (146.21 ticks)
+

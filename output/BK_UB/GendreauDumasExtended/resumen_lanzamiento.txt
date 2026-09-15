@@ -1,0 +1,406 @@
+Inicio: 14/06/2026 20:16:12
+Familia: GendreauDumasExtended
+Algoritmo: B
+Dry-run: 0
+Entrada: launcher/MLI/../../input/MLI/instances/GendreauDumasExtended
+Soluciones: launcher/MLI/../../input/MLI/solutions/GendreauDumasExtended
+Salida: launcher/MLI/../../tmp/260614201612_GendreauDumasExtended/
+ 
+==========================================
+INSTANCIA: GendreauDumasExtended/n100w100.001.txt | inicio 14/06/2026 20:16:12
+OK  : GendreauDumasExtended/n100w100.001.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n100w100.002.txt | inicio 14/06/2026 20:16:13
+OK  : GendreauDumasExtended/n100w100.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w100.003.txt | inicio 14/06/2026 20:16:13
+OK  : GendreauDumasExtended/n100w100.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w100.004.txt | inicio 14/06/2026 20:16:13
+OK  : GendreauDumasExtended/n100w100.004.txt | 569s
+ 
+INSTANCIA: GendreauDumasExtended/n100w100.005.txt | inicio 14/06/2026 20:25:42
+OK  : GendreauDumasExtended/n100w100.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w120.001.txt | inicio 14/06/2026 20:25:42
+OK  : GendreauDumasExtended/n100w120.001.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n100w120.002.txt | inicio 14/06/2026 20:25:43
+OK  : GendreauDumasExtended/n100w120.002.txt | 3s
+ 
+INSTANCIA: GendreauDumasExtended/n100w120.003.txt | inicio 14/06/2026 20:25:46
+OK  : GendreauDumasExtended/n100w120.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w120.004.txt | inicio 14/06/2026 20:25:46
+OK  : GendreauDumasExtended/n100w120.004.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n100w120.005.txt | inicio 14/06/2026 20:25:47
+OK  : GendreauDumasExtended/n100w120.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w140.001.txt | inicio 14/06/2026 20:25:47
+OK  : GendreauDumasExtended/n100w140.001.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n100w140.002.txt | inicio 14/06/2026 20:25:48
+OK  : GendreauDumasExtended/n100w140.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w140.003.txt | inicio 14/06/2026 20:25:48
+OK  : GendreauDumasExtended/n100w140.003.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n100w140.004.txt | inicio 14/06/2026 20:25:50
+OK  : GendreauDumasExtended/n100w140.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w140.005.txt | inicio 14/06/2026 20:25:50
+OK  : GendreauDumasExtended/n100w140.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w160.001.txt | inicio 14/06/2026 20:25:50
+OK  : GendreauDumasExtended/n100w160.001.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n100w160.002.txt | inicio 14/06/2026 20:25:52
+OK  : GendreauDumasExtended/n100w160.002.txt | 3s
+ 
+INSTANCIA: GendreauDumasExtended/n100w160.003.txt | inicio 14/06/2026 20:25:55
+OK  : GendreauDumasExtended/n100w160.003.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n100w160.004.txt | inicio 14/06/2026 20:25:56
+OK  : GendreauDumasExtended/n100w160.004.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n100w160.005.txt | inicio 14/06/2026 20:25:58
+OK  : GendreauDumasExtended/n100w160.005.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n100w80.001.txt | inicio 14/06/2026 20:26:00
+OK  : GendreauDumasExtended/n100w80.001.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n100w80.002.txt | inicio 14/06/2026 20:26:01
+OK  : GendreauDumasExtended/n100w80.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w80.003.txt | inicio 14/06/2026 20:26:01
+OK  : GendreauDumasExtended/n100w80.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n100w80.004.txt | inicio 14/06/2026 20:26:01
+OK  : GendreauDumasExtended/n100w80.004.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n100w80.005.txt | inicio 14/06/2026 20:26:02
+OK  : GendreauDumasExtended/n100w80.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w120.001.txt | inicio 14/06/2026 20:26:02
+OK  : GendreauDumasExtended/n20w120.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w120.002.txt | inicio 14/06/2026 20:26:02
+OK  : GendreauDumasExtended/n20w120.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w120.003.txt | inicio 14/06/2026 20:26:02
+OK  : GendreauDumasExtended/n20w120.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w120.004.txt | inicio 14/06/2026 20:26:02
+OK  : GendreauDumasExtended/n20w120.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w120.005.txt | inicio 14/06/2026 20:26:02
+OK  : GendreauDumasExtended/n20w120.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w140.001.txt | inicio 14/06/2026 20:26:02
+OK  : GendreauDumasExtended/n20w140.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w140.002.txt | inicio 14/06/2026 20:26:02
+OK  : GendreauDumasExtended/n20w140.002.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n20w140.003.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w140.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w140.004.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w140.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w140.005.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w140.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w160.001.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w160.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w160.002.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w160.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w160.003.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w160.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w160.004.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w160.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w160.005.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w160.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w180.001.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w180.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w180.002.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w180.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w180.003.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w180.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w180.004.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w180.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w180.005.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w180.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w200.001.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w200.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w200.002.txt | inicio 14/06/2026 20:26:03
+OK  : GendreauDumasExtended/n20w200.002.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n20w200.003.txt | inicio 14/06/2026 20:26:04
+OK  : GendreauDumasExtended/n20w200.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w200.004.txt | inicio 14/06/2026 20:26:04
+OK  : GendreauDumasExtended/n20w200.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n20w200.005.txt | inicio 14/06/2026 20:26:04
+OK  : GendreauDumasExtended/n20w200.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w120.001.txt | inicio 14/06/2026 20:26:04
+OK  : GendreauDumasExtended/n40w120.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w120.002.txt | inicio 14/06/2026 20:26:04
+OK  : GendreauDumasExtended/n40w120.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w120.003.txt | inicio 14/06/2026 20:26:04
+OK  : GendreauDumasExtended/n40w120.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w120.004.txt | inicio 14/06/2026 20:26:04
+OK  : GendreauDumasExtended/n40w120.004.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n40w120.005.txt | inicio 14/06/2026 20:26:05
+OK  : GendreauDumasExtended/n40w120.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w140.001.txt | inicio 14/06/2026 20:26:05
+OK  : GendreauDumasExtended/n40w140.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w140.002.txt | inicio 14/06/2026 20:26:05
+OK  : GendreauDumasExtended/n40w140.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w140.003.txt | inicio 14/06/2026 20:26:05
+OK  : GendreauDumasExtended/n40w140.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w140.004.txt | inicio 14/06/2026 20:26:05
+OK  : GendreauDumasExtended/n40w140.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w140.005.txt | inicio 14/06/2026 20:26:05
+OK  : GendreauDumasExtended/n40w140.005.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n40w160.001.txt | inicio 14/06/2026 20:26:06
+OK  : GendreauDumasExtended/n40w160.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w160.002.txt | inicio 14/06/2026 20:26:06
+OK  : GendreauDumasExtended/n40w160.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w160.003.txt | inicio 14/06/2026 20:26:06
+OK  : GendreauDumasExtended/n40w160.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w160.004.txt | inicio 14/06/2026 20:26:06
+OK  : GendreauDumasExtended/n40w160.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w160.005.txt | inicio 14/06/2026 20:26:06
+OK  : GendreauDumasExtended/n40w160.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w180.001.txt | inicio 14/06/2026 20:26:06
+OK  : GendreauDumasExtended/n40w180.001.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n40w180.002.txt | inicio 14/06/2026 20:26:07
+OK  : GendreauDumasExtended/n40w180.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w180.003.txt | inicio 14/06/2026 20:26:07
+OK  : GendreauDumasExtended/n40w180.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w180.004.txt | inicio 14/06/2026 20:26:07
+OK  : GendreauDumasExtended/n40w180.004.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n40w180.005.txt | inicio 14/06/2026 20:26:08
+OK  : GendreauDumasExtended/n40w180.005.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n40w200.001.txt | inicio 14/06/2026 20:26:09
+OK  : GendreauDumasExtended/n40w200.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w200.002.txt | inicio 14/06/2026 20:26:09
+OK  : GendreauDumasExtended/n40w200.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n40w200.003.txt | inicio 14/06/2026 20:26:09
+OK  : GendreauDumasExtended/n40w200.003.txt | 25s
+ 
+INSTANCIA: GendreauDumasExtended/n40w200.004.txt | inicio 14/06/2026 20:26:34
+OK  : GendreauDumasExtended/n40w200.004.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n40w200.005.txt | inicio 14/06/2026 20:26:35
+OK  : GendreauDumasExtended/n40w200.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w120.001.txt | inicio 14/06/2026 20:26:35
+OK  : GendreauDumasExtended/n60w120.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w120.002.txt | inicio 14/06/2026 20:26:35
+OK  : GendreauDumasExtended/n60w120.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w120.003.txt | inicio 14/06/2026 20:26:35
+OK  : GendreauDumasExtended/n60w120.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w120.004.txt | inicio 14/06/2026 20:26:35
+OK  : GendreauDumasExtended/n60w120.004.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n60w120.005.txt | inicio 14/06/2026 20:26:36
+OK  : GendreauDumasExtended/n60w120.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w140.001.txt | inicio 14/06/2026 20:26:36
+OK  : GendreauDumasExtended/n60w140.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w140.002.txt | inicio 14/06/2026 20:26:36
+OK  : GendreauDumasExtended/n60w140.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w140.003.txt | inicio 14/06/2026 20:26:36
+OK  : GendreauDumasExtended/n60w140.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w140.004.txt | inicio 14/06/2026 20:26:36
+OK  : GendreauDumasExtended/n60w140.004.txt | 24s
+ 
+INSTANCIA: GendreauDumasExtended/n60w140.005.txt | inicio 14/06/2026 20:27:00
+OK  : GendreauDumasExtended/n60w140.005.txt | 26s
+ 
+INSTANCIA: GendreauDumasExtended/n60w160.001.txt | inicio 14/06/2026 20:27:26
+OK  : GendreauDumasExtended/n60w160.001.txt | 3s
+ 
+INSTANCIA: GendreauDumasExtended/n60w160.002.txt | inicio 14/06/2026 20:27:29
+OK  : GendreauDumasExtended/n60w160.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w160.003.txt | inicio 14/06/2026 20:27:29
+OK  : GendreauDumasExtended/n60w160.003.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n60w160.004.txt | inicio 14/06/2026 20:27:30
+OK  : GendreauDumasExtended/n60w160.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w160.005.txt | inicio 14/06/2026 20:27:30
+OK  : GendreauDumasExtended/n60w160.005.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n60w180.001.txt | inicio 14/06/2026 20:27:32
+OK  : GendreauDumasExtended/n60w180.001.txt | 23s
+ 
+INSTANCIA: GendreauDumasExtended/n60w180.002.txt | inicio 14/06/2026 20:27:55
+OK  : GendreauDumasExtended/n60w180.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w180.003.txt | inicio 14/06/2026 20:27:55
+OK  : GendreauDumasExtended/n60w180.003.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n60w180.004.txt | inicio 14/06/2026 20:27:57
+OK  : GendreauDumasExtended/n60w180.004.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n60w180.005.txt | inicio 14/06/2026 20:27:59
+OK  : GendreauDumasExtended/n60w180.005.txt | 67s
+ 
+INSTANCIA: GendreauDumasExtended/n60w200.001.txt | inicio 14/06/2026 20:29:06
+OK  : GendreauDumasExtended/n60w200.001.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n60w200.002.txt | inicio 14/06/2026 20:29:08
+OK  : GendreauDumasExtended/n60w200.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w200.003.txt | inicio 14/06/2026 20:29:08
+OK  : GendreauDumasExtended/n60w200.003.txt | 10s
+ 
+INSTANCIA: GendreauDumasExtended/n60w200.004.txt | inicio 14/06/2026 20:29:18
+OK  : GendreauDumasExtended/n60w200.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n60w200.005.txt | inicio 14/06/2026 20:29:18
+OK  : GendreauDumasExtended/n60w200.005.txt | 3s
+ 
+INSTANCIA: GendreauDumasExtended/n80w100.001.txt | inicio 14/06/2026 20:29:21
+OK  : GendreauDumasExtended/n80w100.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w100.002.txt | inicio 14/06/2026 20:29:21
+OK  : GendreauDumasExtended/n80w100.002.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w100.003.txt | inicio 14/06/2026 20:29:21
+OK  : GendreauDumasExtended/n80w100.003.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n80w100.004.txt | inicio 14/06/2026 20:29:22
+OK  : GendreauDumasExtended/n80w100.004.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n80w100.005.txt | inicio 14/06/2026 20:29:23
+OK  : GendreauDumasExtended/n80w100.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w120.001.txt | inicio 14/06/2026 20:29:23
+OK  : GendreauDumasExtended/n80w120.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w120.002.txt | inicio 14/06/2026 20:29:23
+OK  : GendreauDumasExtended/n80w120.002.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n80w120.003.txt | inicio 14/06/2026 20:29:24
+OK  : GendreauDumasExtended/n80w120.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w120.004.txt | inicio 14/06/2026 20:29:24
+OK  : GendreauDumasExtended/n80w120.004.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n80w120.005.txt | inicio 14/06/2026 20:29:26
+OK  : GendreauDumasExtended/n80w120.005.txt | 215s
+ 
+INSTANCIA: GendreauDumasExtended/n80w140.001.txt | inicio 14/06/2026 20:33:01
+OK  : GendreauDumasExtended/n80w140.001.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w140.002.txt | inicio 14/06/2026 20:33:01
+OK  : GendreauDumasExtended/n80w140.002.txt | 15s
+ 
+INSTANCIA: GendreauDumasExtended/n80w140.003.txt | inicio 14/06/2026 20:33:16
+OK  : GendreauDumasExtended/n80w140.003.txt | 13s
+ 
+INSTANCIA: GendreauDumasExtended/n80w140.004.txt | inicio 14/06/2026 20:33:29
+OK  : GendreauDumasExtended/n80w140.004.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n80w140.005.txt | inicio 14/06/2026 20:33:30
+OK  : GendreauDumasExtended/n80w140.005.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w160.001.txt | inicio 14/06/2026 20:33:30
+OK  : GendreauDumasExtended/n80w160.001.txt | 3s
+ 
+INSTANCIA: GendreauDumasExtended/n80w160.002.txt | inicio 14/06/2026 20:33:33
+OK  : GendreauDumasExtended/n80w160.002.txt | 6s
+ 
+INSTANCIA: GendreauDumasExtended/n80w160.003.txt | inicio 14/06/2026 20:33:39
+OK  : GendreauDumasExtended/n80w160.003.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w160.004.txt | inicio 14/06/2026 20:33:39
+OK  : GendreauDumasExtended/n80w160.004.txt | 8s
+ 
+INSTANCIA: GendreauDumasExtended/n80w160.005.txt | inicio 14/06/2026 20:33:47
+OK  : GendreauDumasExtended/n80w160.005.txt | 1s
+ 
+INSTANCIA: GendreauDumasExtended/n80w180.001.txt | inicio 14/06/2026 20:33:48
+OK  : GendreauDumasExtended/n80w180.001.txt | 39s
+ 
+INSTANCIA: GendreauDumasExtended/n80w180.002.txt | inicio 14/06/2026 20:34:27
+OK  : GendreauDumasExtended/n80w180.002.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n80w180.003.txt | inicio 14/06/2026 20:34:29
+OK  : GendreauDumasExtended/n80w180.003.txt | 13s
+ 
+INSTANCIA: GendreauDumasExtended/n80w180.004.txt | inicio 14/06/2026 20:34:42
+OK  : GendreauDumasExtended/n80w180.004.txt | 0s
+ 
+INSTANCIA: GendreauDumasExtended/n80w180.005.txt | inicio 14/06/2026 20:34:42
+OK  : GendreauDumasExtended/n80w180.005.txt | 2s
+ 
+INSTANCIA: GendreauDumasExtended/n80w200.001.txt | inicio 14/06/2026 20:34:44
+OK  : GendreauDumasExtended/n80w200.001.txt | 69s
+ 
+INSTANCIA: GendreauDumasExtended/n80w200.002.txt | inicio 14/06/2026 20:35:53
+OK  : GendreauDumasExtended/n80w200.002.txt | 6s
+ 
+INSTANCIA: GendreauDumasExtended/n80w200.003.txt | inicio 14/06/2026 20:35:59
+OK  : GendreauDumasExtended/n80w200.003.txt | 35s
+ 
+INSTANCIA: GendreauDumasExtended/n80w200.004.txt | inicio 14/06/2026 20:36:34
+OK  : GendreauDumasExtended/n80w200.004.txt | 4s
+ 
+INSTANCIA: GendreauDumasExtended/n80w200.005.txt | inicio 14/06/2026 20:36:38
+OK  : GendreauDumasExtended/n80w200.005.txt | 5s
+ 
+==========================================
+Fin: 14/06/2026 20:36:43
+Tiempo total: 1231s
+Instancias lanzadas: 130
+OK: 130 | FAIL: 0 | SKIP: 0
+Fichero de estadisticas del solver: launcher/MLI/../../tmp/260614201612_GendreauDumasExtended/estadisticas_globales.txt
+Resumen de lanzamiento: launcher/MLI/../../tmp/260614201612_GendreauDumasExtended/resumen_lanzamiento.txt

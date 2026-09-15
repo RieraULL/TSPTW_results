@@ -1,0 +1,106 @@
+Inicio: 14/06/2026 00:52:20
+Familia: SolomonPotvinBengio
+Algoritmo: B
+Dry-run: 0
+Entrada: launcher/MLI/../../input/MLI/instances/SolomonPotvinBengio
+Soluciones: launcher/MLI/../../input/MLI/solutions/SolomonPotvinBengio
+Salida: launcher/MLI/../../tmp/260614005220_SolomonPotvinBengio/
+ 
+==========================================
+INSTANCIA: SolomonPotvinBengio/rc_201.1.txt | inicio 14/06/2026 00:52:20
+OK  : SolomonPotvinBengio/rc_201.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_201.2.txt | inicio 14/06/2026 00:52:20
+OK  : SolomonPotvinBengio/rc_201.2.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_201.3.txt | inicio 14/06/2026 00:52:20
+OK  : SolomonPotvinBengio/rc_201.3.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_201.4.txt | inicio 14/06/2026 00:52:20
+OK  : SolomonPotvinBengio/rc_201.4.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_202.1.txt | inicio 14/06/2026 00:52:20
+OK  : SolomonPotvinBengio/rc_202.1.txt | 52s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_202.2.txt | inicio 14/06/2026 00:53:12
+OK  : SolomonPotvinBengio/rc_202.2.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_202.3.txt | inicio 14/06/2026 00:53:12
+OK  : SolomonPotvinBengio/rc_202.3.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_202.4.txt | inicio 14/06/2026 00:53:12
+OK  : SolomonPotvinBengio/rc_202.4.txt | 2s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_203.1.txt | inicio 14/06/2026 00:53:14
+OK  : SolomonPotvinBengio/rc_203.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_203.2.txt | inicio 14/06/2026 00:53:14
+OK  : SolomonPotvinBengio/rc_203.2.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_203.3.txt | inicio 14/06/2026 00:53:15
+OK  : SolomonPotvinBengio/rc_203.3.txt | 2996s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_203.4.txt | inicio 14/06/2026 01:43:11
+OK  : SolomonPotvinBengio/rc_203.4.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_204.1.txt | inicio 14/06/2026 01:43:11
+OK  : SolomonPotvinBengio/rc_204.1.txt | 3994s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_204.2.txt | inicio 14/06/2026 02:49:45
+OK  : SolomonPotvinBengio/rc_204.2.txt | 10800s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_204.3.txt | inicio 14/06/2026 05:49:45
+OK  : SolomonPotvinBengio/rc_204.3.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_205.1.txt | inicio 14/06/2026 05:49:45
+OK  : SolomonPotvinBengio/rc_205.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_205.2.txt | inicio 14/06/2026 05:49:45
+OK  : SolomonPotvinBengio/rc_205.2.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_205.3.txt | inicio 14/06/2026 05:49:46
+OK  : SolomonPotvinBengio/rc_205.3.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_205.4.txt | inicio 14/06/2026 05:49:47
+OK  : SolomonPotvinBengio/rc_205.4.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_206.1.txt | inicio 14/06/2026 05:49:48
+OK  : SolomonPotvinBengio/rc_206.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_206.2.txt | inicio 14/06/2026 05:49:48
+OK  : SolomonPotvinBengio/rc_206.2.txt | 276s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_206.3.txt | inicio 14/06/2026 05:54:24
+OK  : SolomonPotvinBengio/rc_206.3.txt | 1s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_206.4.txt | inicio 14/06/2026 05:54:25
+OK  : SolomonPotvinBengio/rc_206.4.txt | 2641s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_207.1.txt | inicio 14/06/2026 06:38:26
+OK  : SolomonPotvinBengio/rc_207.1.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_207.2.txt | inicio 14/06/2026 06:38:26
+OK  : SolomonPotvinBengio/rc_207.2.txt | 10801s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_207.3.txt | inicio 14/06/2026 09:38:27
+OK  : SolomonPotvinBengio/rc_207.3.txt | 33s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_207.4.txt | inicio 14/06/2026 09:39:00
+OK  : SolomonPotvinBengio/rc_207.4.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_208.1.txt | inicio 14/06/2026 09:39:00
+OK  : SolomonPotvinBengio/rc_208.1.txt | 10802s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_208.2.txt | inicio 14/06/2026 12:39:02
+OK  : SolomonPotvinBengio/rc_208.2.txt | 0s
+ 
+INSTANCIA: SolomonPotvinBengio/rc_208.3.txt | inicio 14/06/2026 12:39:02
+OK  : SolomonPotvinBengio/rc_208.3.txt | 10800s
+ 
+==========================================
+Fin: 14/06/2026 15:39:02
+Tiempo total: 53202s
+Instancias lanzadas: 30
+OK: 30 | FAIL: 0 | SKIP: 0
+Fichero de estadisticas del solver: launcher/MLI/../../tmp/260614005220_SolomonPotvinBengio/estadisticas_globales.txt
+Resumen de lanzamiento: launcher/MLI/../../tmp/260614005220_SolomonPotvinBengio/resumen_lanzamiento.txt

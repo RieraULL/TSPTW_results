@@ -1,0 +1,92 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 9393 rows and 0 columns.
+MIP Presolve modified 613 coefficients.
+Reduced MIP has 775 rows, 3369 columns, and 16127 nonzeros.
+Reduced MIP has 3369 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (17.28 ticks)
+Probing time = 0.00 sec. (2.97 ticks)
+Clique table members: 775.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (3.98 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0      360.0000    10                    360.0000      128         
+      0     0      396.5000    33                    Cuts: 75      166         
+      0     0      402.5000    85                    Cuts: 22      189         
+      0     0      408.9167    86                    Cuts: 24      218         
+      0     0      413.0000    81                    Cuts: 36      246         
+      0     0      415.0000    67                     Cuts: 8      268         
+      0     0      416.0000    81                     User: 7      280         
+      0     0      416.6000    98                     Cuts: 9      291         
+      0     0      416.6000   101                     Cuts: 9      298         
+      0     0      416.9000    98                    User: 12      309         
+      0     0      416.9000    93                    Cuts: 11      315         
+      0     0      417.4000    77                    User: 10      324         
+      0     0      417.8333    50                     User: 8      341         
+      0     0      418.6667   170                     User: 5      369         
+      0     0      418.8333    64                    User: 22      374         
+      0     0      419.8333    66                     User: 2      395         
+      0     0      422.5500    87                     User: 2      431         
+      0     0      422.7500    67                     User: 6      437         
+      0     0      423.9167   101                     User: 5      457         
+      0     0      424.1667   119                     User: 9      465         
+      0     0      424.1667   120                    User: 11      466         
+      0     0      424.1667    57                    User: 10      466         
+      0     0      424.1667    73                    User: 12      470         
+      0     0      424.1667    66                     User: 2      471         
+      0     0      424.1667    56                     User: 7      472         
+      0     0      425.6667   100                    User: 18      498         
+      0     0      426.1667    56                    User: 10      511         
+      0     0      426.5000    34                     User: 3      521         
+      0     0      426.5000    32                     User: 2      523         
+      0     0      426.7500    40                     User: 2      534         
+      0     0      428.3750   125                     User: 4      561         
+      0     0      430.2500   110                     User: 6      577         
+      0     0      430.7500   116                     User: 6      586         
+      0     0      431.2500   106                     User: 1      604         
+      0     0      431.5000   104                    User: 14      609         
+      0     2      431.6667   122                    431.6667      609                                 0             0
+Elapsed time = 0.60 sec. (1513.78 ticks, tree = 0.01 MB, solutions = 0)
+      2     4      435.5000   133                    434.0000      876                   x49_76 N      2      0      1
+      7     9      439.5000   185                    434.0000     1126                    x2_25 D      7      6      5
+     13    15      447.8333   143                    434.0000     1364                   x34_76 U     13     11      8
+     20    22      447.8333    92                    434.0000     1725                   x38_27 U     20     17     12
+     31    33      453.3750   126                    434.0000     2266                   x27_38 N     31     30     19
+     42    44      457.5000   133                    434.0000     2801                    x7_50 N     42     41     26
+     50    52      462.2500    66                    434.0000     3017                    x0_52 D     50     49     31
+*    53    49      integral     0      463.0000      434.0000     3039    6.26%
+     68    63      451.2500    35      463.0000      435.5000     3634    5.94%          x42_74 N     68     65     11
+     79    73      460.0000    68      463.0000      435.5000     4100    5.94%          x79_74 N     79     77     20
+    120   109      447.9000    44      463.0000      435.5000     4905    5.94%          x43_68 D    120    119     37
+Elapsed time = 2.53 sec. (5552.67 ticks, tree = 0.59 MB, solutions = 1)
+    180   164      443.3881    56      463.0000      436.0000     5775    5.83%          x16_79 N    180    179     48
+    231   215      448.2797    87      463.0000      436.0000     6269    5.83%          x46_64 D    231    230     99
+    280   264      448.4510    40      463.0000      436.0000     6509    5.83%          x52_70 D    280    279    148
+    340   316      461.0000    10      463.0000      436.0000     7403    5.83%          x54_45 U    340    338    206
+*   353    19      integral     0      439.0000      436.0000     7628    0.68%
+
+Clique cuts applied:  2
+Zero-half cuts applied:  7
+Gomory fractional cuts applied:  3
+User cuts applied:  1611
+
+Root node processing (before b&c):
+  Real time             =    0.60 sec. (1513.81 ticks)
+Sequential b&c:
+  Real time             =    4.25 sec. (8151.34 ticks)
+                          ------------
+Total (root+branch&cut) =    4.85 sec. (9665.15 ticks)
+

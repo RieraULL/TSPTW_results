@@ -1,0 +1,46 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 434.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 754 rows and 0 columns.
+MIP Presolve modified 123 coefficients.
+Reduced MIP has 205 rows, 743 columns, and 2485 nonzeros.
+Reduced MIP has 743 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.66 ticks)
+Probing time = 0.00 sec. (1.53 ticks)
+Clique table members: 207.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.55 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                          434.0000        0.0000           100.00%
+      0     0      412.5000    22      434.0000      359.0000       46   17.28%
+      0     0      419.0000    46      434.0000       Cuts: 8       72    3.46%
+      0     0      425.1667    46      434.0000      Cuts: 17       85    2.04%
+      0     0      432.0000    34      434.0000      Cuts: 22      100    0.46%
+      0     0        cutoff            434.0000                    115    0.00%                        0             0
+Elapsed time = 0.02 sec. (26.63 ticks, tree = 0.01 MB, solutions = 1)
+
+Zero-half cuts applied:  9
+Gomory fractional cuts applied:  3
+User cuts applied:  123
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (26.64 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (26.64 ticks)
+

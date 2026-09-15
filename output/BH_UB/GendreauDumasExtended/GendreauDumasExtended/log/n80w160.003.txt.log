@@ -1,0 +1,75 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 521.0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 11901 rows and 0 columns.
+MIP Presolve modified 897 coefficients.
+Reduced MIP has 1059 rows, 3526 columns, and 20647 nonzeros.
+Reduced MIP has 3526 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (24.82 ticks)
+Probing time = 0.00 sec. (2.97 ticks)
+Clique table members: 1059.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (3.72 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                          521.0000        0.0000           100.00%
+      0     0      463.5000    66      521.0000      393.0000      110   24.57%
+      0     0      497.0000    68      521.0000      Cuts: 68      155    4.61%
+      0     0      499.0000    44      521.0000      Cuts: 26      177    4.22%
+      0     0      500.5000    24      521.0000      Cuts: 20      201    3.93%
+      0     0      503.0000    77      521.0000      Cuts: 31      225    3.45%
+      0     0      506.0000   116      521.0000      Cuts: 20      270    2.88%
+      0     0      506.1818   168      521.0000      Cuts: 25      287    2.84%
+      0     0      507.0000    54      521.0000      Cuts: 10      308    2.69%
+      0     0      508.0000    95      521.0000      Cuts: 22      334    2.50%
+      0     0      508.1667    96      521.0000      Cuts: 11      358    2.46%
+      0     0      508.8333   181      521.0000      Cuts: 18      396    2.34%
+      0     0      509.3729   122      521.0000      Cuts: 21      417    2.23%
+      0     0      509.5714   110      521.0000       Cuts: 8      425    2.19%
+      0     0      509.7000   109      521.0000      Cuts: 14      433    2.17%
+      0     0      511.1667    83      521.0000      Cuts: 15      468    1.89%
+      0     0      511.2778   167      521.0000      Cuts: 12      491    1.87%
+      0     0      512.2500   111      521.0000      Cuts: 33      518    1.68%
+      0     0      512.6389   123      521.0000      Cuts: 32      535    1.60%
+      0     0      513.6250   115      521.0000      Cuts: 23      560    1.42%
+      0     0      514.5000    54      521.0000      Cuts: 25      589    1.25%
+      0     0      515.0000   117      521.0000      Cuts: 12      605    1.15%
+      0     0      515.4722   118      521.0000      Cuts: 18      625    1.06%
+      0     0      515.7321   122      521.0000      Cuts: 10      658    1.01%
+      0     0      516.7632   187      521.0000  ZeroHalf: 19      705    0.81%
+      0     0      516.9141   179      521.0000   ZeroHalf: 8      718    0.78%
+      0     0      517.2982   167      521.0000      Cuts: 18      760    0.71%
+      0     0      517.5769   162      521.0000      Cuts: 17      777    0.66%
+      0     0      517.6667   142      521.0000  ZeroHalf: 15      791    0.64%
+      0     0      518.1875   174      521.0000      Cuts: 11      833    0.54%
+      0     0      518.2727   122      521.0000      Cuts: 19      852    0.52%
+      0     0      518.5000    72      521.0000       Cuts: 4      860    0.48%
+      0     0      518.5000   113      521.0000   ZeroHalf: 8      878    0.48%
+      0     2      518.5000    74      521.0000      518.5000      878    0.48%                        0             0
+Elapsed time = 0.43 sec. (739.74 ticks, tree = 0.01 MB, solutions = 1)
+     10     8      519.3500    57      521.0000      518.6667     1036    0.45%          x79_41 N     10      8      8
+
+Zero-half cuts applied:  40
+Gomory fractional cuts applied:  2
+User cuts applied:  564
+
+Root node processing (before b&c):
+  Real time             =    0.43 sec. (738.89 ticks)
+Sequential b&c:
+  Real time             =    0.28 sec. (395.08 ticks)
+                          ------------
+Total (root+branch&cut) =    0.71 sec. (1133.97 ticks)
+

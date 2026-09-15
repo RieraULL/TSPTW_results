@@ -1,0 +1,63 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 1631 rows and 0 columns.
+MIP Presolve modified 213 coefficients.
+Reduced MIP has 282 rows, 867 columns, and 3513 nonzeros.
+Reduced MIP has 867 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.86 ticks)
+Probing time = 0.00 sec. (2.31 ticks)
+Clique table members: 282.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.75 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0      689.4704    26                    624.9234       34         
+      0     0      700.6832    61                    Cuts: 30       68         
+      0     0      712.6358    55                    Cuts: 16       86         
+      0     0      712.8487    51                    Cuts: 11       88         
+      0     0      714.2074    41                    Cuts: 10      114         
+      0     0      714.3160    28                     User: 2      121         
+      0     0      714.6838    52                     Cuts: 7      129         
+      0     0      714.9594    48                     Cuts: 3      149         
+      0     0      714.9594    48                     Cuts: 4      151         
+      0     2      715.2631    63                    715.3870      151                                 0             0
+Elapsed time = 0.09 sec. (182.20 ticks, tree = 0.01 MB, solutions = 0)
+     23    25      908.7932    18                    717.2490      653                   x25_29 U     23     22     19
+     62    58      750.2549    41                    718.3801     1182                   x29_20 N     62     60     21
+     95    85      723.6955    37                    718.5294     1617                   x21_32 U     95     94     11
+    120   110      793.1146    34                    718.5294     2067                   x29_25 N    120    119     30
+    148   136      838.7007    18                    718.5294     2530                    x1_13 D    148    147     51
+    175   161     1011.7253    20                    718.5294     3050                   x17_16 D    175    174     71
+    186   172     1375.5019    33                    718.5294     3443                    x4_14 U    186    185     79
+    228   210      739.4861    31                    720.8260     4081                   x23_25 D    228    227     42
+    260   242      748.5744    27                    720.8260     4311                    x4_25 D    260    259     74
+    354   328      748.3922    26                    720.8291     5502                    x5_28 U    354    352     55
+Elapsed time = 1.97 sec. (3354.74 ticks, tree = 0.23 MB, solutions = 0)
+    436   404      734.0664    19                    720.8581     7415                   x20_26 D    436    435     16
+*   450+  231                          753.0038      720.8581             4.27%
+*   460+   45                          726.3588      721.0027             0.74%
+
+Cover cuts applied:  1
+Zero-half cuts applied:  12
+Gomory fractional cuts applied:  2
+User cuts applied:  1831
+
+Root node processing (before b&c):
+  Real time             =    0.09 sec. (182.20 ticks)
+Sequential b&c:
+  Real time             =    2.65 sec. (4668.64 ticks)
+                          ------------
+Total (root+branch&cut) =    2.73 sec. (4850.84 ticks)
+

@@ -1,0 +1,40 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 986 rows and 0 columns.
+MIP Presolve modified 152 coefficients.
+Reduced MIP has 220 rows, 696 columns, and 2591 nonzeros.
+Reduced MIP has 696 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.00 ticks)
+Probing time = 0.00 sec. (1.61 ticks)
+Clique table members: 220.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.70 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0      610.5811    14                    610.5811       57         
+      0     2      657.4010    12                    657.6523       57                                 0             0
+Elapsed time = 0.04 sec. (26.84 ticks, tree = 0.01 MB, solutions = 0)
+*     6     6      integral     0      671.6741      657.9752       82    2.04%
+*    57    13      integral     0      664.7392      660.3849      374    0.66%
+
+User cuts applied:  221
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (21.68 ticks)
+Sequential b&c:
+  Real time             =    0.15 sec. (126.51 ticks)
+                          ------------
+Total (root+branch&cut) =    0.18 sec. (148.19 ticks)
+

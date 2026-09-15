@@ -1,0 +1,167 @@
+Inicio: 11/07/2026 21:32:48
+Familia: AFG
+Algoritmo: B
+Dry-run: 0
+Entrada: launcher/MLI/../../input/MLI/instances/AFG
+Soluciones: launcher/MLI/../../input/MLI/solutions/AFG
+Salida: launcher/MLI/../../tmp/260711213248_AFG/
+ 
+==========================================
+INSTANCIA: AFG/rbg010a.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg010a.tw | 0s
+ 
+INSTANCIA: AFG/rbg016a.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg016a.tw | 0s
+ 
+INSTANCIA: AFG/rbg016b.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg016b.tw | 0s
+ 
+INSTANCIA: AFG/rbg017.2.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg017.2.tw | 0s
+ 
+INSTANCIA: AFG/rbg017a.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg017a.tw | 0s
+ 
+INSTANCIA: AFG/rbg017.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg017.tw | 0s
+ 
+INSTANCIA: AFG/rbg019a.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg019a.tw | 0s
+ 
+INSTANCIA: AFG/rbg019b.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg019b.tw | 0s
+ 
+INSTANCIA: AFG/rbg019c.tw | inicio 11/07/2026 21:32:48
+OK  : AFG/rbg019c.tw | 2s
+ 
+INSTANCIA: AFG/rbg019d.tw | inicio 11/07/2026 21:32:50
+OK  : AFG/rbg019d.tw | 0s
+ 
+INSTANCIA: AFG/rbg020a.tw | inicio 11/07/2026 21:32:50
+OK  : AFG/rbg020a.tw | 0s
+ 
+INSTANCIA: AFG/rbg021.2.tw | inicio 11/07/2026 21:32:50
+OK  : AFG/rbg021.2.tw | 0s
+ 
+INSTANCIA: AFG/rbg021.3.tw | inicio 11/07/2026 21:32:50
+OK  : AFG/rbg021.3.tw | 0s
+ 
+INSTANCIA: AFG/rbg021.4.tw | inicio 11/07/2026 21:32:50
+OK  : AFG/rbg021.4.tw | 0s
+ 
+INSTANCIA: AFG/rbg021.5.tw | inicio 11/07/2026 21:32:50
+OK  : AFG/rbg021.5.tw | 0s
+ 
+INSTANCIA: AFG/rbg021.6.tw | inicio 11/07/2026 21:32:50
+OK  : AFG/rbg021.6.tw | 0s
+ 
+INSTANCIA: AFG/rbg021.7.tw | inicio 11/07/2026 21:32:50
+OK  : AFG/rbg021.7.tw | 1s
+ 
+INSTANCIA: AFG/rbg021.8.tw | inicio 11/07/2026 21:32:51
+OK  : AFG/rbg021.8.tw | 1s
+ 
+INSTANCIA: AFG/rbg021.9.tw | inicio 11/07/2026 21:32:52
+OK  : AFG/rbg021.9.tw | 0s
+ 
+SKIP: falta solucion factible para rbg021.tw
+INSTANCIA: AFG/rbg021.tw | inicio 11/07/2026 21:32:52
+OK  : AFG/rbg021.tw | 1s
+ 
+INSTANCIA: AFG/rbg027a.tw | inicio 11/07/2026 21:32:53
+OK  : AFG/rbg027a.tw | 0s
+ 
+INSTANCIA: AFG/rbg031a.tw | inicio 11/07/2026 21:32:53
+OK  : AFG/rbg031a.tw | 0s
+ 
+INSTANCIA: AFG/rbg033a.tw | inicio 11/07/2026 21:32:53
+OK  : AFG/rbg033a.tw | 0s
+ 
+INSTANCIA: AFG/rbg034a.tw | inicio 11/07/2026 21:32:53
+OK  : AFG/rbg034a.tw | 0s
+ 
+INSTANCIA: AFG/rbg035a.2.tw | inicio 11/07/2026 21:32:53
+OK  : AFG/rbg035a.2.tw | 0s
+ 
+INSTANCIA: AFG/rbg035a.tw | inicio 11/07/2026 21:32:53
+OK  : AFG/rbg035a.tw | 0s
+ 
+INSTANCIA: AFG/rbg038a.tw | inicio 11/07/2026 21:32:53
+OK  : AFG/rbg038a.tw | 0s
+ 
+INSTANCIA: AFG/rbg040a.tw | inicio 11/07/2026 21:32:53
+OK  : AFG/rbg040a.tw | 1s
+ 
+INSTANCIA: AFG/rbg041a.tw | inicio 11/07/2026 21:32:54
+OK  : AFG/rbg041a.tw | 35s
+ 
+INSTANCIA: AFG/rbg042a.tw | inicio 11/07/2026 21:33:29
+OK  : AFG/rbg042a.tw | 6s
+ 
+INSTANCIA: AFG/rbg048a.tw | inicio 11/07/2026 21:33:35
+OK  : AFG/rbg048a.tw | 10801s
+ 
+INSTANCIA: AFG/rbg049a.tw | inicio 12/07/2026 00:33:36
+OK  : AFG/rbg049a.tw | 10803s
+ 
+INSTANCIA: AFG/rbg050a.tw | inicio 12/07/2026 03:33:39
+OK  : AFG/rbg050a.tw | 9s
+ 
+INSTANCIA: AFG/rbg050b.tw | inicio 12/07/2026 03:33:48
+OK  : AFG/rbg050b.tw | 10803s
+ 
+INSTANCIA: AFG/rbg050c.tw | inicio 12/07/2026 06:33:51
+OK  : AFG/rbg050c.tw | 10800s
+ 
+INSTANCIA: AFG/rbg055a.tw | inicio 12/07/2026 09:33:51
+OK  : AFG/rbg055a.tw | 0s
+ 
+INSTANCIA: AFG/rbg067a.tw | inicio 12/07/2026 09:33:51
+OK  : AFG/rbg067a.tw | 0s
+ 
+INSTANCIA: AFG/rbg086a.tw | inicio 12/07/2026 09:33:51
+OK  : AFG/rbg086a.tw | 2s
+ 
+INSTANCIA: AFG/rbg092a.tw | inicio 12/07/2026 09:33:53
+OK  : AFG/rbg092a.tw | 10s
+ 
+INSTANCIA: AFG/rbg125a.tw | inicio 12/07/2026 09:34:03
+OK  : AFG/rbg125a.tw | 0s
+ 
+INSTANCIA: AFG/rbg132.2.tw | inicio 12/07/2026 09:34:03
+OK  : AFG/rbg132.2.tw | 213s
+ 
+INSTANCIA: AFG/rbg132.tw | inicio 12/07/2026 09:37:36
+OK  : AFG/rbg132.tw | 5s
+ 
+INSTANCIA: AFG/rbg152.3.tw | inicio 12/07/2026 09:37:41
+OK  : AFG/rbg152.3.tw | 10801s
+ 
+INSTANCIA: AFG/rbg152.tw | inicio 12/07/2026 12:37:42
+OK  : AFG/rbg152.tw | 5s
+ 
+INSTANCIA: AFG/rbg172a.tw | inicio 12/07/2026 12:37:47
+OK  : AFG/rbg172a.tw | 10s
+ 
+INSTANCIA: AFG/rbg193.2.tw | inicio 12/07/2026 12:37:57
+OK  : AFG/rbg193.2.tw | 10811s
+ 
+INSTANCIA: AFG/rbg193.tw | inicio 12/07/2026 15:38:08
+OK  : AFG/rbg193.tw | 83s
+ 
+INSTANCIA: AFG/rbg201a.tw | inicio 12/07/2026 15:39:31
+OK  : AFG/rbg201a.tw | 28s
+ 
+INSTANCIA: AFG/rbg233.2.tw | inicio 12/07/2026 15:39:59
+OK  : AFG/rbg233.2.tw | 10811s
+ 
+INSTANCIA: AFG/rbg233.tw | inicio 12/07/2026 18:40:10
+OK  : AFG/rbg233.tw | 138s
+ 
+==========================================
+Fin: 12/07/2026 18:42:28
+Tiempo total: 76180s
+Instancias lanzadas: 50
+OK: 50 | FAIL: 0 | SKIP: 1
+Fichero de estadisticas del solver: launcher/MLI/../../tmp/260711213248_AFG/estadisticas_globales.txt
+Resumen de lanzamiento: launcher/MLI/../../tmp/260711213248_AFG/resumen_lanzamiento.txt

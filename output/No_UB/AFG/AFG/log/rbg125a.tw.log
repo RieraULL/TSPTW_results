@@ -1,0 +1,69 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 1453 rows and 0 columns.
+MIP Presolve modified 385 coefficients.
+Reduced MIP has 638 rows, 1844 columns, and 5833 nonzeros.
+Reduced MIP has 1844 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.70 ticks)
+Probing time = 0.00 sec. (2.23 ticks)
+Clique table members: 638.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (4.25 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0     1343.5000     8                   1343.5000      498         
+      0     0     1403.6667    24                    Cuts: 17      569         
+      0     0     1403.6667    45                    Cuts: 25      580         
+      0     0     1404.0000    37                     Cuts: 6      596         
+      0     0     1404.0000    31                    Cuts: 17      605         
+      0     0     1404.0000    16                     Cuts: 6      616         
+      0     0     1405.0000    39                     Cuts: 6      632         
+      0     0     1405.3000    75                    Cuts: 12      647         
+      0     0     1405.3333    61                    Cuts: 21      680         
+      0     0     1405.7778    59                    Cuts: 26      694         
+      0     0     1406.0000    37                    Cuts: 15      713         
+      0     0     1406.0000    40                     Cuts: 7      726         
+      0     0     1406.0000    24                     User: 8      736         
+      0     0     1406.0000    37                     User: 9      752         
+      0     0     1406.0000    14                     User: 2      766         
+      0     0     1406.5714    87                     User: 2      811         
+      0     0     1406.5714    61                     User: 8      814         
+      0     0     1406.5714    60                    User: 10      822         
+      0     0     1406.5714    72                     User: 4      826         
+      0     0     1407.0000    10                    User: 10      843         
+      0     0     1407.0000    20                     User: 2      845         
+      0     0     1407.1250    90                     User: 1      845         
+      0     0     1407.1250    78                    User: 16      846         
+      0     0     1407.1875    80                     User: 3      859         
+      0     0     1407.1875    81                     User: 3      861         
+      0     0     1407.2187   101                     User: 2      874         
+      0     0     1407.2188    97                     User: 6      874         
+*     0+    0                         1409.0000     1407.2188             0.13%
+      0     0        cutoff           1409.0000     1407.2188      876    0.13%                        0             0
+Elapsed time = 0.33 sec. (435.37 ticks, tree = 0.01 MB, solutions = 1)
+
+Clique cuts applied:  2
+Zero-half cuts applied:  18
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  1
+User cuts applied:  455
+
+Root node processing (before b&c):
+  Real time             =    0.33 sec. (435.43 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.33 sec. (435.43 ticks)
+

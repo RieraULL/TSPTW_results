@@ -1,0 +1,43 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_TimeLimit                               10800
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 3 times.
+MIP Presolve eliminated 89 rows and 11 columns.
+MIP Presolve modified 52 coefficients.
+Aggregator did 41 substitutions.
+Reduced MIP has 196 rows, 357 columns, and 899 nonzeros.
+Reduced MIP has 357 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.70 ticks)
+Probing time = 0.00 sec. (0.33 ticks)
+Clique table members: 242.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.43 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0      732.5000    12                    721.0000       73         
+      0     0      737.5000     8                     Cuts: 7       76         
+*     0+    0                          738.0000      737.5000             0.07%
+      0     0        cutoff            738.0000      737.5000       76    0.07%                        0             0
+Elapsed time = 0.03 sec. (6.30 ticks, tree = 0.01 MB, solutions = 1)
+
+Zero-half cuts applied:  1
+Gomory fractional cuts applied:  1
+User cuts applied:  38
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (6.31 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (6.31 ticks)
+

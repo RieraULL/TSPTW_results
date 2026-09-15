@@ -1,0 +1,91 @@
+Inicio: 13/06/2026 14:02:07
+Familia: OhlmannThomas
+Algoritmo: B
+Dry-run: 0
+Entrada: launcher/MLI/../../input/MLI/instances/OhlmannThomas
+Soluciones: launcher/MLI/../../input/MLI/solutions/OhlmannThomas
+Salida: launcher/MLI/../../tmp/260613140207_OhlmannThomas/
+ 
+==========================================
+INSTANCIA: OhlmannThomas/n150w120.001.txt | inicio 13/06/2026 14:02:07
+OK  : OhlmannThomas/n150w120.001.txt | 3s
+ 
+INSTANCIA: OhlmannThomas/n150w120.002.txt | inicio 13/06/2026 14:02:10
+OK  : OhlmannThomas/n150w120.002.txt | 525s
+ 
+INSTANCIA: OhlmannThomas/n150w120.003.txt | inicio 13/06/2026 14:10:55
+OK  : OhlmannThomas/n150w120.003.txt | 4s
+ 
+INSTANCIA: OhlmannThomas/n150w120.004.txt | inicio 13/06/2026 14:10:59
+OK  : OhlmannThomas/n150w120.004.txt | 4s
+ 
+INSTANCIA: OhlmannThomas/n150w120.005.txt | inicio 13/06/2026 14:11:03
+OK  : OhlmannThomas/n150w120.005.txt | 11s
+ 
+INSTANCIA: OhlmannThomas/n150w140.001.txt | inicio 13/06/2026 14:11:14
+OK  : OhlmannThomas/n150w140.001.txt | 121s
+ 
+INSTANCIA: OhlmannThomas/n150w140.002.txt | inicio 13/06/2026 14:13:15
+OK  : OhlmannThomas/n150w140.002.txt | 7s
+ 
+INSTANCIA: OhlmannThomas/n150w140.003.txt | inicio 13/06/2026 14:13:22
+OK  : OhlmannThomas/n150w140.003.txt | 58s
+ 
+INSTANCIA: OhlmannThomas/n150w140.004.txt | inicio 13/06/2026 14:14:20
+OK  : OhlmannThomas/n150w140.004.txt | 0s
+ 
+INSTANCIA: OhlmannThomas/n150w140.005.txt | inicio 13/06/2026 14:14:20
+OK  : OhlmannThomas/n150w140.005.txt | 9s
+ 
+INSTANCIA: OhlmannThomas/n150w160.001.txt | inicio 13/06/2026 14:14:29
+OK  : OhlmannThomas/n150w160.001.txt | 3s
+ 
+INSTANCIA: OhlmannThomas/n150w160.002.txt | inicio 13/06/2026 14:14:32
+OK  : OhlmannThomas/n150w160.002.txt | 13s
+ 
+INSTANCIA: OhlmannThomas/n150w160.003.txt | inicio 13/06/2026 14:14:45
+OK  : OhlmannThomas/n150w160.003.txt | 258s
+ 
+INSTANCIA: OhlmannThomas/n150w160.004.txt | inicio 13/06/2026 14:19:03
+OK  : OhlmannThomas/n150w160.004.txt | 14s
+ 
+INSTANCIA: OhlmannThomas/n150w160.005.txt | inicio 13/06/2026 14:19:17
+OK  : OhlmannThomas/n150w160.005.txt | 61s
+ 
+INSTANCIA: OhlmannThomas/n200w120.001.txt | inicio 13/06/2026 14:20:18
+OK  : OhlmannThomas/n200w120.001.txt | 8s
+ 
+INSTANCIA: OhlmannThomas/n200w120.002.txt | inicio 13/06/2026 14:20:26
+OK  : OhlmannThomas/n200w120.002.txt | 19s
+ 
+INSTANCIA: OhlmannThomas/n200w120.003.txt | inicio 13/06/2026 14:20:45
+OK  : OhlmannThomas/n200w120.003.txt | 62s
+ 
+INSTANCIA: OhlmannThomas/n200w120.004.txt | inicio 13/06/2026 14:21:47
+OK  : OhlmannThomas/n200w120.004.txt | 1s
+ 
+INSTANCIA: OhlmannThomas/n200w120.005.txt | inicio 13/06/2026 14:21:48
+OK  : OhlmannThomas/n200w120.005.txt | 12s
+ 
+INSTANCIA: OhlmannThomas/n200w140.001.txt | inicio 13/06/2026 14:22:00
+OK  : OhlmannThomas/n200w140.001.txt | 678s
+ 
+INSTANCIA: OhlmannThomas/n200w140.002.txt | inicio 13/06/2026 14:33:18
+OK  : OhlmannThomas/n200w140.002.txt | 1485s
+ 
+INSTANCIA: OhlmannThomas/n200w140.003.txt | inicio 13/06/2026 14:58:03
+OK  : OhlmannThomas/n200w140.003.txt | 9s
+ 
+INSTANCIA: OhlmannThomas/n200w140.004.txt | inicio 13/06/2026 14:58:12
+OK  : OhlmannThomas/n200w140.004.txt | 10808s
+ 
+INSTANCIA: OhlmannThomas/n200w140.005.txt | inicio 13/06/2026 17:58:20
+OK  : OhlmannThomas/n200w140.005.txt | 77s
+ 
+==========================================
+Fin: 13/06/2026 17:59:37
+Tiempo total: 14250s
+Instancias lanzadas: 25
+OK: 25 | FAIL: 0 | SKIP: 0
+Fichero de estadisticas del solver: launcher/MLI/../../tmp/260613140207_OhlmannThomas/estadisticas_globales.txt
+Resumen de lanzamiento: launcher/MLI/../../tmp/260613140207_OhlmannThomas/resumen_lanzamiento.txt
