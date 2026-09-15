@@ -1,112 +1,148 @@
 # TSPTW_results
 
-Data and computational results associated with the paper **“Capturing the
-logic of time windows: a dual-based path inequality approach”**, by Jorge
-Riera-Ledesma and Inmaculada Rodríguez-Martín.
+Computational data and results accompanying the paper
 
-The repository contains Traveling Salesman Problem with Time Windows (TSPTW)
-instances, solutions used as initial upper bounds, and execution results from
-the branch-and-cut algorithm described in the paper. The material corresponds
-to the experiments in Section **7. Computational study**.
+**“Capturing the logic of time windows: a dual-based path inequality approach”**  
+Jorge Riera-Ledesma and Inmaculada Rodríguez-Martín.
 
-## Contents
+This repository contains the benchmark instances, initial feasible solutions, execution logs, and solution files used in the computational study of the paper. The experiments assess a deliberately lightweight branch-and-cut algorithm for the **Traveling Salesman Problem with Time Windows (TSPTW)**, based on subtour-elimination constraints and dynamically generated infeasible path elimination constraints (iPECs).
+
+The material corresponds to Section **Computational study** of the paper and is provided to facilitate inspection and independent verification of the reported results.
+
+## Repository structure
 
 ```text
 input/
-├── instances/    TSPTW instances
-└── UB/            Solutions used to initialize the upper bound
+├── instances/    TSPTW benchmark instances
+└── UB/           Feasible solutions used as initial upper bounds
 
 output/
-├── No_UB/         Runs without an initial upper bound
-├── BH_UB/         Runs with the basic-heuristic upper bound
-└── BK_UB/         Runs with the best-known upper bound
+├── No_UB/        Runs without an initial upper bound
+├── BH_UB/        Runs initialized with the basic-heuristic upper bound
+└── BK_UB/        Runs initialized with the best-known upper bound
 ```
 
-The `input/UB` and `output/` directories are organized by instance family.
-The distributed families include `AFG`, `Dumas`, `GendreauDumasExtended`,
-`Langevin`, `OhlmannThomas`, `SolomonPesant`, and
-`SolomonPotvinBengio`. Some upper-bound files also include the
-`da_Silva_Urrutia` family.
+The `input/UB/` and `output/` directories are further organized by benchmark family. The repository currently uses the following family names:
 
-## Instances
+```text
+AFG
+Dumas
+GendreauDumasExtended
+Langevin
+OhlmannThomas
+SolomonPesant
+SolomonPotvinBengio
+```
 
-Files in `input/instances/<family>/` are the original TSPTW benchmark
-instances. Their original names and extensions are preserved, for example:
+Some upper-bound files may additionally include the `da_Silva_Urrutia` family.
+
+## Benchmark instances used in the paper
+
+The main computational comparison in the paper considers **261 instances** from five benchmark classes:
+
+| Benchmark class in the paper | Repository directory | Instances |
+| --- | --- | ---: |
+| Ascheuer | `AFG` | 50 |
+| Pesant | `SolomonPesant` | 28 |
+| Potvin | `SolomonPotvinBengio` | 28 |
+| Gendreau | `GendreauDumasExtended` | 130 |
+| Ohlmann | `OhlmannThomas` | 25 |
+| **Total** |  | **261** |
+
+The 50 Ascheuer instances are further divided into **32 Easy** and **18 Hard** instances, following the classification used in the paper.
+
+The complete Gendreau class considered in some previous studies contains 140 instances. The public benchmark collection used here contains 130: the two groups `n100w180.x` and `n100w200.x` are not included.
+
+The `Dumas` and `Langevin` families are retained in the repository for completeness, but they are not included in the main comparative analysis because they are no longer sufficiently discriminating for the exact methods considered in the paper.
+
+The benchmark instances were obtained from the public TSPTW collection maintained at:
+
+<https://lopez-ibanez.eu/tsptw-instances>
+
+Original file names and extensions are preserved whenever possible. For example:
 
 ```text
 input/instances/AFG/rbg016b.tw
 input/instances/Dumas/n100w20.001.txt
 ```
 
-Names usually encode the family, number of vertices, time-window width, or
-other characteristics defined by the benchmark authors. The original source
-documentation should be consulted for the exact format of each family.
+The original benchmark documentation should be consulted for the precise file format and provenance of each family.
 
-## Initial Upper Bounds
+## Initial upper bounds
 
-Feasible solutions in `.sol` format are stored under `input/UB/`. An instance
-may have a solution in one or both of the following configurations:
+Feasible solutions used to initialize the solver are stored under `input/UB/`. The computational study considers three configurations:
 
-- `BH_UB`: solution obtained with the basic heuristic described in Section
-  6.2 of the paper.
-- `BK_UB`: best-known feasible solution used to initialize the solver.
-
-The `No_UB` configuration does not require files in `input/UB`, since the run
-starts without an initial incumbent.
-
-## Results
-
-Each directory under `output/` corresponds to an experimental configuration
-and is organized by family. Results may include:
-
-- `.log` files containing the CPLEX and branch-and-cut search logs;
-- `.sol` files containing feasible solutions found during the run;
-- other auxiliary files generated during the run, when available.
-
-File names make it possible to associate each result with its corresponding
-instance. For example, results for `n200w120.001.txt` under the `BH_UB`
-configuration are located within `output/BH_UB/OhlmannThomas/`.
-
-## Experimental Configurations
-
-The three configurations reproduce the comparison in Table 2 of the paper:
-
-| Configuration | Initial upper bound | Purpose |
+| Configuration | Initial upper bound | Role in the paper |
 | --- | --- | --- |
-| `No_UB` | None | Measure performance without an initial incumbent |
-| `BH_UB` | Basic heuristic | Evaluate the algorithm's recommended configuration |
-| `BK_UB` | Best-known solution | Measure the effect of an idealized upper bound |
+| `No_UB` | None | Measures performance without an initial incumbent |
+| `BH_UB` | Basic heuristic | Practical configuration used for RR in the comparison with previous exact methods |
+| `BK_UB` | Best-known feasible solution | Idealized configuration used to assess sensitivity to incumbent quality |
 
-In the published study, `BH_UB` and `BK_UB` solved 248 out of 261 instances
-(95.0%), while `No_UB` solved 243 (93.1%). These values are reported in the
-paper and provide a reference for checking a new run.
+The **BH** solutions are generated by the basic heuristic described in the paper. The **BK** files contain the best-known feasible solutions used to initialize the corresponding runs.
 
-## Experimental Environment
+The `No_UB` configuration does not require an initial solution file.
 
-The paper reports the following execution conditions:
+## Computational results
+
+Each directory under `output/` corresponds to one of the three experimental configurations and is organized by benchmark family. Depending on the instance and configuration, the stored material may include:
+
+- `.log` files containing CPLEX and branch-and-cut execution logs;
+- `.sol` files containing feasible solutions obtained during the run;
+- auxiliary files generated during the experiments, when available.
+
+File names preserve the association with the original benchmark instance. For example, results for `n200w120.001.txt` under the basic-heuristic configuration are stored under:
+
+```text
+output/BH_UB/OhlmannThomas/
+```
+
+### Sensitivity to the initial upper bound
+
+The three configurations reproduce the sensitivity experiment reported in the paper. The resulting solution coverage is:
+
+| Configuration | Instances solved | Coverage |
+| --- | ---: | ---: |
+| `No_UB` | 243 / 261 | 93.1% |
+| `BH_UB` | 248 / 261 | 95.0% |
+| `BK_UB` | 248 / 261 | 95.0% |
+
+Thus, the basic heuristic attains the same solution coverage as initialization with the best-known feasible solutions, while the no-upper-bound configuration solves five fewer instances.
+
+The algorithm denoted **RR** in the comparison with previously published exact methods corresponds to the `BH_UB` configuration.
+
+The literature comparison reported in the paper also uses published results from other exact algorithms. This repository contains the computational outputs produced by RR; it does not reproduce the execution files of those external methods.
+
+## Experimental environment
+
+The experiments reported in the paper were performed under the following conditions:
 
 - Ubuntu 24.04 LTS;
-- Intel Core i5-7500, single core;
-- 20 GB of RAM;
+- Intel Core i5-7500 processor, using a single core;
+- approximately 20 GB of RAM;
 - CPLEX 22.1 through the Callable Library;
-- compiled with `gcc 13.3.0` and `-O2`;
-- a time limit of 10,800 seconds per instance, unless otherwise stated.
+- C++ compiled with `gcc 13.3.0` and the `-O2` optimization flag;
+- time limit of **10,800 seconds per instance**, unless otherwise stated.
 
-This repository contains the data and experimental outputs, but does not
-include the source code for the branch-and-cut algorithm or CPLEX. Re-running
-the algorithm requires a compatible implementation and a CPLEX license.
+Because the repository contains the data and computational outputs but not the source code of the branch-and-cut implementation, it is intended primarily to support **inspection and verification of the published computational results**. Re-running the algorithm requires a compatible implementation and a valid CPLEX license.
 
-## Reference
+## Relation to the paper
 
-J. Riera-Ledesma and I. Rodríguez-Martín, *Capturing the logic of time
-windows: a dual-based path inequality approach*, 2026.
+The associated paper develops a dual-based mechanism for detecting temporal infeasibility in routing solutions. A temporal feasibility subproblem is used to generate Farkas certificates, whose support can be interpreted through time-difference cycles. These cycles identify collections of route fragments responsible for temporal infeasibility and lead to multi-fragment iPECs and their tournament, fixed-endpoint, and hybrid strengthenings.
 
-The mathematical details of the temporal verifier, Farkas certificates, iPEC
-inequalities, and tournament, fixed-endpoint, and hybrid strengthenings are
-provided in the associated paper.
+The repository contains the computational material used to evaluate that methodology on the TSPTW.
 
-## License
+## Citation
 
-The contents of this repository are released under [CC0 1.0
-Universal](LICENSE), unless explicitly stated otherwise for a file originating
-from an external source.
+If you use this material, please cite the associated paper:
+
+> Jorge Riera-Ledesma and Inmaculada Rodríguez-Martín.  
+> *Capturing the logic of time windows: a dual-based path inequality approach*.  
+> 2026.
+
+A permanent Zenodo archive and DOI should be cited together with the paper once available.
+
+## License and third-party data
+
+Original material produced for this study is released under the [CC0 1.0 Universal](LICENSE) dedication, unless stated otherwise.
+
+Benchmark instances and any other files originating from external sources are included for research reproducibility and remain subject to the terms, attribution requirements, and provenance of their original sources. In particular, the benchmark instance collection should be cited through its original references and public repository.
