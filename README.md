@@ -1,122 +1,112 @@
 # TSPTW_results
 
-Datos y resultados computacionales asociados al artículo **“Capturing the
-logic of time windows: a dual-based path inequality approach”**, de Jorge
-Riera-Ledesma e Inmaculada Rodríguez-Martín.
+Data and computational results associated with the paper **“Capturing the
+logic of time windows: a dual-based path inequality approach”**, by Jorge
+Riera-Ledesma and Inmaculada Rodríguez-Martín.
 
-El repositorio contiene las instancias del Traveling Salesman Problem with
-Time Windows (TSPTW), las soluciones utilizadas como cotas superiores
-iniciales y los resultados de las ejecuciones del algoritmo branch-and-cut
-descrito en el artículo. El material corresponde a los experimentos de la
-sección **7. Computational study**.
+The repository contains Traveling Salesman Problem with Time Windows (TSPTW)
+instances, solutions used as initial upper bounds, and execution results from
+the branch-and-cut algorithm described in the paper. The material corresponds
+to the experiments in Section **7. Computational study**.
 
-## Contenido
+## Contents
 
 ```text
 input/
-├── instances/    Instancias TSPTW
-└── UB/            Soluciones usadas para inicializar la cota superior
+├── instances/    TSPTW instances
+└── UB/            Solutions used to initialize the upper bound
 
 output/
-├── No_UB/         Ejecuciones sin cota superior inicial
-├── BH_UB/         Ejecuciones con la cota de la heurística básica
-└── BK_UB/         Ejecuciones con la mejor cota superior conocida
+├── No_UB/         Runs without an initial upper bound
+├── BH_UB/         Runs with the basic-heuristic upper bound
+└── BK_UB/         Runs with the best-known upper bound
 ```
 
-Las carpetas de `input/UB` y `output/` están organizadas por familia de
-instancias. Entre las familias distribuidas se encuentran `AFG`, `Dumas`,
-`GendreauDumasExtended`, `Langevin`, `OhlmannThomas`, `SolomonPesant` y
-`SolomonPotvinBengio`. Algunas cotas superiores también incluyen la familia
-`da_Silva_Urrutia`.
+The `input/UB` and `output/` directories are organized by instance family.
+The distributed families include `AFG`, `Dumas`, `GendreauDumasExtended`,
+`Langevin`, `OhlmannThomas`, `SolomonPesant`, and
+`SolomonPotvinBengio`. Some upper-bound files also include the
+`da_Silva_Urrutia` family.
 
-## Instancias
+## Instances
 
-Los ficheros de `input/instances/<familia>/` son las instancias originales de
-los benchmarks TSPTW. Se conservan sus nombres y extensiones de origen, por
-ejemplo:
+Files in `input/instances/<family>/` are the original TSPTW benchmark
+instances. Their original names and extensions are preserved, for example:
 
 ```text
 input/instances/AFG/rbg016b.tw
 input/instances/Dumas/n100w20.001.txt
 ```
 
-Los nombres suelen codificar la familia, el número de vértices, la anchura de
-la ventana temporal u otras características definidas por los autores del
-benchmark. Para conocer el formato exacto de cada familia debe consultarse la
-documentación de su fuente original.
+Names usually encode the family, number of vertices, time-window width, or
+other characteristics defined by the benchmark authors. The original source
+documentation should be consulted for the exact format of each family.
 
-## Cotas superiores iniciales
+## Initial Upper Bounds
 
-En `input/UB/` se almacenan soluciones factibles en formato `.sol`. La misma
-instancia puede disponer de una solución en una o ambas configuraciones:
+Feasible solutions in `.sol` format are stored under `input/UB/`. An instance
+may have a solution in one or both of the following configurations:
 
-- `BH_UB`: solución obtenida mediante la heurística básica descrita en la
-	sección 6.2 del artículo.
-- `BK_UB`: mejor solución factible conocida utilizada para inicializar el
-	solver.
+- `BH_UB`: solution obtained with the basic heuristic described in Section
+  6.2 of the paper.
+- `BK_UB`: best-known feasible solution used to initialize the solver.
 
-La configuración `No_UB` no necesita ficheros en `input/UB`, ya que la
-ejecución comienza sin proporcionar un incumbente inicial.
+The `No_UB` configuration does not require files in `input/UB`, since the run
+starts without an initial incumbent.
 
-## Resultados
+## Results
 
-Cada carpeta de `output/` corresponde a una configuración experimental y está
-organizada por familia. Los resultados pueden incluir:
+Each directory under `output/` corresponds to an experimental configuration
+and is organized by family. Results may include:
 
-- ficheros `.log`, con el registro de CPLEX y de la búsqueda branch-and-cut;
-- ficheros `.sol`, con las soluciones factibles encontradas durante la
-	ejecución;
-- otros ficheros auxiliares generados por la ejecución, cuando están
-	disponibles.
+- `.log` files containing the CPLEX and branch-and-cut search logs;
+- `.sol` files containing feasible solutions found during the run;
+- other auxiliary files generated during the run, when available.
 
-La nomenclatura de los ficheros permite asociar cada salida con la instancia
-correspondiente. Por ejemplo, los resultados de `n200w120.001.txt` bajo la
-configuración `BH_UB` se encuentran dentro de `output/BH_UB/OhlmannThomas/`.
+File names make it possible to associate each result with its corresponding
+instance. For example, results for `n200w120.001.txt` under the `BH_UB`
+configuration are located within `output/BH_UB/OhlmannThomas/`.
 
-## Configuraciones experimentales
+## Experimental Configurations
 
-Las tres configuraciones permiten reproducir la comparación de la tabla 2 del
-artículo:
+The three configurations reproduce the comparison in Table 2 of the paper:
 
-| Configuración | Cota superior inicial | Propósito |
+| Configuration | Initial upper bound | Purpose |
 | --- | --- | --- |
-| `No_UB` | Ninguna | Medir el comportamiento sin incumbente inicial |
-| `BH_UB` | Heurística básica | Evaluar la configuración recomendada por el algoritmo |
-| `BK_UB` | Mejor solución conocida | Medir el efecto de una cota superior idealizada |
+| `No_UB` | None | Measure performance without an initial incumbent |
+| `BH_UB` | Basic heuristic | Evaluate the algorithm's recommended configuration |
+| `BK_UB` | Best-known solution | Measure the effect of an idealized upper bound |
 
-En el estudio publicado, `BH_UB` y `BK_UB` resolvieron 248 de 261 instancias
-(95,0 %), mientras que `No_UB` resolvió 243 (93,1 %). Estos valores son los
-reportados en el artículo y sirven como referencia para comprobar una nueva
-ejecución.
+In the published study, `BH_UB` and `BK_UB` solved 248 out of 261 instances
+(95.0%), while `No_UB` solved 243 (93.1%). These values are reported in the
+paper and provide a reference for checking a new run.
 
-## Entorno experimental
+## Experimental Environment
 
-El artículo informa de las siguientes condiciones de ejecución:
+The paper reports the following execution conditions:
 
 - Ubuntu 24.04 LTS;
-- Intel Core i5-7500, un único núcleo;
-- 20 GB de RAM;
-- CPLEX 22.1 mediante Callable Library;
-- compilación con `gcc 13.3.0` y `-O2`;
-- límite de tiempo de 10.800 segundos por instancia, salvo indicación
-	contraria.
+- Intel Core i5-7500, single core;
+- 20 GB of RAM;
+- CPLEX 22.1 through the Callable Library;
+- compiled with `gcc 13.3.0` and `-O2`;
+- a time limit of 10,800 seconds per instance, unless otherwise stated.
 
-Este repositorio contiene los datos y las salidas experimentales, pero no
-incluye el código fuente del algoritmo branch-and-cut ni CPLEX. Para ejecutar
-de nuevo el algoritmo se necesita disponer de una implementación compatible y
-de una licencia de CPLEX.
+This repository contains the data and experimental outputs, but does not
+include the source code for the branch-and-cut algorithm or CPLEX. Re-running
+the algorithm requires a compatible implementation and a CPLEX license.
 
-## Referencia
+## Reference
 
 J. Riera-Ledesma and I. Rodríguez-Martín, *Capturing the logic of time
 windows: a dual-based path inequality approach*, 2026.
 
-Los detalles matemáticos del verificador temporal, los certificados de Farkas,
-las desigualdades iPEC y sus fortalecimientos tournament, fixed-endpoint e
-híbrido se encuentran en el artículo asociado.
+The mathematical details of the temporal verifier, Farkas certificates, iPEC
+inequalities, and tournament, fixed-endpoint, and hybrid strengthenings are
+provided in the associated paper.
 
-## Licencia
+## License
 
-El contenido de este repositorio se distribuye bajo [CC0 1.0
-Universal](LICENSE), salvo que se indique expresamente lo contrario para
-algún fichero procedente de una fuente externa.
+The contents of this repository are released under [CC0 1.0
+Universal](LICENSE), unless explicitly stated otherwise for a file originating
+from an external source.
